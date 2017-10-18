@@ -1,3 +1,6 @@
+/**
+ * Class for main.
+ */
 public class Main
 {
 	public static void main( String[] args )
@@ -10,8 +13,8 @@ public class Main
 		banco.armazenarConta( conta1 );
 		banco.armazenarConta( conta2 );
 
-
-		banco.depositarConta( conta1.getConta(), 100.00 );
+		// Testando o Parametro exception
+		banco.depositarConta( conta1.getConta(), -100.00 );
 		banco.extratoConta( conta1.getConta() );
 		banco.sacarConta( conta1.getConta(), 100.00 );
 		banco.removerConta( conta1.getConta() );
