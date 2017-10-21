@@ -19,6 +19,7 @@ Question 1.
 Question 2.
 > java Main <nome_do_arquivo>
 
+-- OBS: Os resultados das operações serão no arquivo resultados.txt
 ## Autoria
 
 Desenvolvido por Erick de Oliveira Silva (<erickoliveira.eos@gmail.com>), graduando de BTI na UFRN.
