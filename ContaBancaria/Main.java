@@ -20,6 +20,8 @@ public class Main
 		banco.removerConta( conta1.getConta() );
 
 		banco.extratoConta( conta2.getConta() );
+		// Testando a exceção para saques inválidos
+		banco.sacarConta( conta2.getConta(), 250.00 );
 		banco.removerConta( conta2.getConta() );
 	}
 }

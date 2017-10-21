@@ -34,6 +34,16 @@ public class ContaBancaria
 	}
 
 	/**
+	 * Resgata o nome do cliente
+	 *
+	 * @return     O nome do cliente
+	 */
+	public String getNome()
+	{
+		return nome;
+	}
+
+	/**
 	 * Imprime o extrato da conta
 	 */
 	public void extrato()

@@ -43,6 +43,8 @@ public class GerenciarContas
 			{
 				// Resgata o indice do objeto na coleção
 				int indice = contas.indexOf( current );
+				System.out.println( "Removendo conta do cliente : " + current.getNome() );
+				
 				// Remove de acordo com o indice
 				contas.remove( indice );
 				break;
